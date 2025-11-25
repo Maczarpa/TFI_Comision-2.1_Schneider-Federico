@@ -1,59 +1,84 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# [Nombre del proyecto]
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+**Comisión:** [2.1]
+**Integrantes:** [Schneider Federico]
+**Docente:** [Facundo Veron]
+**Fecha:** [24/11/2025]
 
-## About Laravel
+## Resumen ejecutivo
+Desarrollo de un software para la creación y la realización de encuestas.
+El proyecto es un encargo dado por un desarrollador que por tiempo no puede desarrollarlo pide que le realice un modelo del trabajo asignado, un software para encuestas.
+Uno de los mayores problemas era la disposición de tiempo ya que por requisitos vi forzado a cambiar mi trabajo final, teniendo que adaptarme a las herramientas que me solicitaban con un tiempo ajustado tuve que hacer estudiar acelerados y no tan óptimos de las herramientas escogidas.
+El resultado esperado es un modelo del programa de elaborador de encuesta bastante optimo con una posible adaptación a móvil y offline al momento de resolver las encuestas. Aportando un punto de vista de cómo podría ser el trabajo a realizar y los perímetros que tiene que tener en cuenta. Demostrando la adaptabilidad y en el tiempo disponible.
+el estado actual de la misma es un programa que ya cuenta con un backend optimizado para cumplir las tareas necesarias a desarrollar.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Contexto
+Sección 3 – Alcance y Recursos
+•	Tipo de trabajo incluido:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Desarrollo de software
 
-## Learning Laravel
+Investigación aplicada
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+Diseño y prototipado
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+•	Herramientas, lenguajes o tecnologías previstas:
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Xamp (mysql)
 
-### Premium Partners
+Php con framework (laravel) backend
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+Artisan Frontend
 
-## Contributing
+Librería survey js
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Git / GitHub
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Metodologías ágiles
+- Marco: Kanban
+- La metodología ágil utilizada es Kanban porque al trabajo hacerlo solo me resulta más útil tener la lista organizada de los trabajos que tengo que hacer lo realización los que se encuentran en revisión y los que están pendientes, siento que al hacerlo yo solo es el que mejor esta adaptado para mis necesidades.
+- Roles: hago solo me encargo de todo.
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## Repositorio & versionado
+- Estrategia de ramas:trunk.
+- Convenciones de commits: feat (migraciones)
+- feat (controladores)
+- feat (usuarios)
+- feat (routes).
+- fix(usuarios)
+- PR/MR: [plantilla, checks, aprobaciones].
 
-## License
+## Testing(Opcional)
+- Estrategia: [unidad, integración, E2E].
+- Herramientas: [frameworks].
+- Casos representativos: [tabla/lista].
+- Reportes y cobertura: [capturas/links].
+- Integración en CI: [cómo y cuándo corren].
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Calidad y buenas prácticas
+- Linters/formatters: [herramientas y reglas].
+- Principios y patrones: [SOLID, etc.].
+- Logs/errores y seguridad: [manejo de secretos, SAST].
+
+## CI/CD
+- Diagrama simple del pipeline.
+- Fragmentos clave del archivo de CI.
+- Entornos y despliegue (incluye rollback).
+- Evidencias (runs verdes, artefactos, releases).
+
+## Infra y ejecución
+- Cómo correr localmente (Docker/Make).
+- `.env.example` y variables.
+
+## Riesgos y lecciones
+[riesgos, decisiones, retro final]
+
+## Conclusiones y trabajo futuro
+[puntos pendientes y roadmap]
+
+## Referencias
+[enlaces y bibliografía]
