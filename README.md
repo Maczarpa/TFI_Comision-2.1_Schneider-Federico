@@ -59,23 +59,16 @@ Git / GitHub
 - Logs/errores y seguridad: [manejo de secretos, SAST].
 
 ## CI/CD
-- Diagrama simple del pipeline.
-- Fragmentos clave del archivo de CI.
-- Entornos y despliegue (incluye rollback).
-- Evidencias (runs verdes, artefactos, releases).
+Error con el composer se intentó arreglar, pero no hubo solución.
 
-## Infra y ejecución
-- descargar el repositorio.
-- conectar a la base de datos y ejecutar migraciones.
-- tener angular 18 con la libreria survey js.
-- correr el angular.
-- `.env.example` y variables.
-
-## Riesgos y lecciones
-[riesgos, decisiones, retro final]
-
-## Conclusiones y trabajo futuro
-[puntos pendientes y roadmap]
+## Conclusiones
+se decidió recortar el trabajo debido al tiempo y las herramientas a aprender volviendo como una versión reducida de la misma con funciones básicas y un mínimo funcional respetando las pautas establecidas.
+Los puntos pendientes 
+son el frontend y la conexión con el backend y una adaptación para móvil junto al offline que debería estar facilitada por la herramienta angular.
+Bibliografía y enlaces.
 
 ## Referencias
-[enlaces y bibliografía]
+repositorio
+https://github.com/Maczarpa/TFI_Comision-2.1_Schneider-Federico
+Jira
+https://faschneider.atlassian.net/jira/software/projects/DDUSPLCYRE/boards/2/calendar?atlOrigin=eyJpIjoiMjc1ODZkZjk3MmU3NGMxMjg0YjNmNzdjODI0NjM0ZmEiLCJwIjoiaiJ9
