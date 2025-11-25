@@ -50,14 +50,8 @@ Git / GitHub
 - feat (usuarios)
 - feat (routes).
 - fix(usuarios)
-- PR/MR: [plantilla, checks, aprobaciones].
 
-## Testing(Opcional)
-- Estrategia: [unidad, integración, E2E].
-- Herramientas: [frameworks].
-- Casos representativos: [tabla/lista].
-- Reportes y cobertura: [capturas/links].
-- Integración en CI: [cómo y cuándo corren].
+
 
 ## Calidad y buenas prácticas
 - Linters/formatters: [herramientas y reglas].
