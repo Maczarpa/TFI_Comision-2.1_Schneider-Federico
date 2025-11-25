@@ -1,4 +1,4 @@
-# [Nombre del proyecto]
+# Desarrollo de un software para la creación y la realización de encuestas.
 
 **Comisión:** [2.1]
 **Integrantes:** [Schneider Federico]
