@@ -50,7 +50,7 @@ Git / GitHub
 - feat (usuarios)
 - feat (routes).
 - fix(usuarios)
-
+- feat (frontend)
 
 
 ## Calidad y buenas prácticas
@@ -65,7 +65,10 @@ Git / GitHub
 - Evidencias (runs verdes, artefactos, releases).
 
 ## Infra y ejecución
-- Cómo correr localmente (Docker/Make).
+- descargar el repositorio.
+- conectar a la base de datos y ejecutar migraciones.
+- tener angular 18 con la libreria survey js.
+- correr el angular.
 - `.env.example` y variables.
 
 ## Riesgos y lecciones
